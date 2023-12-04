@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Manager Dashboard</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/index.css">
+</head>
+<body class="container-fluid">
+    <div class="container dashboard">
+        <div class="d-flex justify-content-between align-items-center my-4">
+            <h2 class="mb-0">Product Manager Dashboard</h2>
+            <a href="index.html" class="btn btn-primary">Back to Home</a>
+        </div>
+        <!-- Report Section -->
+        <section id="reportsSection">
+            <h3>Product Placement Reports</h3>
+            <div id="currentAnalysis">
+                <h2>Current Product Analysis</h2>
+                <!-- This table will be filled with the current analysis data via JS -->
+                <table id="currentAnalysisTable">
+                    <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>Product ID</th>
+                            <th>Popularity</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- Product analysis rows go here -->
+                    </tbody>
+                </table>
+            </div>
+            
+            <div id="historicalAnalysis">
+                <h2>Historical Analysis Reports</h2>
+                <!-- This button will toggle the display of the historical data -->
+                <div id="historicalAnalysisContent">
+                    <!-- Historical analysis tables go here -->
+                    <!-- Each report will have its own table or section -->
+                </div>
+            </div>
+            
+        </section>
+
+    </div>
+
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JavaScript -->
+    <script src="/js/product-manager.js"></script>
+</body>
+</html>

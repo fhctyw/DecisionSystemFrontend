@@ -1,0 +1,263 @@
+
+body {
+    background-color: #f8f9fa;
+    color: #333; 
+    max-width: 1200px;
+  }
+  
+
+
+  h1, h2 {
+    color: #007bff; 
+  }
+  
+
+  form {
+    max-width: 500px; 
+    margin: 30px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-group {
+    margin-bottom: 20px; 
+  }
+  
+  button.btn {
+    width: 100%; 
+    padding: 10px;
+    margin-top: 10px;
+  }
+  
+  a.btn-link {
+    display: inline-block; 
+    margin-top: 20px; 
+    color: #007bff;
+    text-decoration: none; 
+  }
+  
+  a.btn-link:hover {
+    text-decoration: underline; 
+  }
+  
+  /* Custom checkbox toggle */
+  .custom-checkbox .custom-control-input:checked~.custom-control-label::before {
+    background-color: #28a745; 
+  }
+  
+  .dashboard {
+    margin-top: 50px; 
+  }
+
+  
+  .card {
+    box-shadow: 0 0.15rem 1rem rgba(0, 0, 0, 0.1);
+}
+
+/* Custom styles */
+.card-text .text-success {
+  font-size: 1.25rem; 
+}
+
+.card-text .text-warning {
+  font-size: 1rem; 
+}
+
+.card {
+  padding: 1rem;
+  margin: 0.5rem;
+}
+
+.card-img-top {
+    width: 100%;
+    height: auto; 
+    object-fit: cover; 
+}
+
+.card-body {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card-title {
+    margin-bottom: 0.75rem;
+}
+
+.card-text:last-child {
+    margin-bottom: 0; 
+}
+
+.slider-container {
+  margin-bottom: 20px;
+}
+
+.slider-label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.slider-input-container {
+  display: flex;
+  align-items: center;
+}
+
+.factor-slider {
+  flex-grow: 1; 
+  margin-right: 10px;
+}
+
+.factor-number-input {
+  width: 60px;
+}
+
+#currentAnalysisTable {
+  width: 100%;
+  border-collapse: collapse; 
+}
+
+#currentAnalysisTable th,
+#currentAnalysisTable td {
+  border: 1px solid #ddd; 
+  padding: 8px;
+  text-align: left;
+}
+
+#currentAnalysisTable th {
+  background-color: #f2f2f2;
+  color: #333;
+}
+
+#currentAnalysisTable tr:nth-child(even) {background-color: #f9f9f9;}
+
+#currentAnalysisTable tr:hover {background-color: #eaeaea;}
+
+#historicalAnalysisContent table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+#historicalAnalysisContent th,
+#historicalAnalysisContent td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+#historicalAnalysisContent th {
+  background-color: #f2f2f2;
+  color: #333;
+}
+
+#historicalAnalysisContent tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+#historicalAnalysisContent tr:hover {
+  background-color: #eaeaea;
+}
+
+.cart-icon-container img {
+  width: 50px; 
+  height: auto;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+/* Cart sidebar styles */
+.cart-sidebar {
+  position: fixed;
+  top: 0;
+  right: -400px;
+  width: 400px;
+  height: 100%; 
+  background-color: #fff; 
+  box-shadow: -2px 0 5px rgba(0, 0, 0, 0.5); 
+  transition: right 0.3s;
+  display: flex;
+  flex-direction: column;
+  z-index: 1000;
+}
+
+.cart-sidebar-header {
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ccc;
+}
+
+.cart-sidebar-items {
+  flex-grow: 1;
+  overflow-y: auto;
+}
+
+.cart-sidebar-footer {
+  padding: 1rem;
+  border-top: 1px solid #ccc;
+}
+
+/* Show sidebar */
+.show-cart-sidebar .cart-sidebar {
+  right: 0; /* Slide in */
+}
+
+/* Close button styles */
+.btn-close {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.cart-item {
+  padding: 15px;
+  border-bottom: 1px solid #ececec;
+}
+
+.cart-item:last-child {
+  border-bottom: none;
+}
+
+.cart-item-title {
+  font-size: 16px;
+  color: #333333;
+  margin-bottom: 5px;
+}
+
+.cart-item-detail {
+  font-size: 14px;
+  color: #666666;
+  margin-bottom: 5px;
+}
+
+#cartTotal {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+#checkoutButton {
+  width: 100%;
+  padding: 10px;
+  font-size: 18px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+#checkoutButton:hover {
+  background-color: #218838;
+}
